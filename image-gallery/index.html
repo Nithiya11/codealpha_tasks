@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pixel Gallery</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<!-- Loader -->
+
+<div id="loader">
+    <div class="spinner"></div>
+</div>
+
+<!-- Navbar -->
+
+<nav>
+
+    <div class="logo">
+        <i class="fa-solid fa-camera"></i>
+        Pixel Gallery
+    </div>
+
+    <ul>
+
+        <li><a href="#">Home</a></li>
+
+        <li><a href="#gallery">Gallery</a></li>
+
+        <li><a href="#about">About</a></li>
+
+        <li><a href="#contact">Contact</a></li>
+
+    </ul>
+
+    <div class="nav-right">
+
+        <button id="theme-btn">
+
+            <i class="fa-solid fa-moon"></i>
+
+        </button>
+
+    </div>
+
+</nav>
+
+<!-- Hero -->
+
+<section class="hero">
+
+<div class="overlay">
+
+<h1>Discover Beautiful Photography</h1>
+
+<p>
+
+Explore thousands of stunning photos from Nature,
+Cities, Animals and Travel around the world.
+
+</p>
+
+<a href="#gallery">
+
+<button>
+
+Explore Gallery
+
+</button>
+
+</a>
+
+</div>
+
+</section>
+
+<!-- Search -->
+
+<section class="search-section">
+
+<input
+
+type="text"
+
+id="search"
+
+placeholder="Search Images..."
+
+>
+
+</section>
+
+<!-- Filter -->
+
+<section class="filter-section">
+
+<button class="active" data-filter="all">All</button>
+
+<button data-filter="nature">Nature</button>
+
+<button data-filter="city">City</button>
+
+<button data-filter="animal">Animals</button>
+
+<button data-filter="travel">Travel</button>
+
+</section>
+
+<!-- Gallery -->
+
+<section id="gallery">
+
+<div class="gallery">
+
+<div class="card nature">
+
+<img src="images/nature1.jpg">
+
+<div class="info">
+
+<h3>bird</h3>
+
+<p>Nature</p>
+
+</div>
+
+</div>
+
+<div class="card city">
+
+<img src="images/city1.jpg">
+
+<div class="info">
+
+<h3>New York</h3>
+
+<p>City</p>
+
+</div>
+
+</div>
+
+<div class="card animal">
+
+<img src="images/animal1.jpg">
+
+<div class="info">
+
+<h3>Tigger</h3>
+
+<p>Animal</p>
+
+</div>
+
+</div>
+
+<div class="card travel">
+
+<img src="images/travel1.jpg">
+
+<div class="info">
+
+<h3>Beach</h3>
+
+<p>Travel</p>
+
+</div>
+
+</div>
+
+<div class="card nature">
+
+<img src="images/nature2.jpg">
+
+<div class="info">
+
+<h3>Waterfall</h3>
+
+<p>Nature</p>
+
+</div>
+
+</div>
+
+<div class="card city">
+
+<img src="images/city2.jpg">
+
+<div class="info">
+
+<h3>Dubai</h3>
+
+<p>City</p>
+
+</div>
+
+</div>
+
+<div class="card animal">
+
+<img src="images/animal2.jpg">
+
+<div class="info">
+
+<h3>deer</h3>
+
+<p>Animal</p>
+
+</div>
+
+</div>
+
+<div class="card travel">
+
+<img src="images/travel2.jpg">
+
+<div class="info">
+
+<h3>Paris</h3>
+
+<p>Travel</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- Lightbox -->
+
+<div class="lightbox">
+
+<span class="close">
+
+&times;
+
+</span>
+
+<button class="prev">
+
+❮
+
+</button>
+
+<img id="lightbox-img">
+
+<button class="next">
+
+❯
+
+</button>
+
+<div class="caption"></div>
+
+</div>
+
+<!-- About -->
+
+<section id="about">
+
+<h2>
+
+About Gallery
+
+</h2>
+
+<p>
+
+Pixel Gallery is a modern responsive image gallery
+designed using HTML, CSS and JavaScript.
+
+It includes filtering, searching,
+lightbox preview and responsive layout.
+
+</p>
+
+</section>
+
+<!-- Contact -->
+
+<section id="contact">
+
+<h2>
+
+Contact
+
+</h2>
+
+<p>
+
+Email : example@gmail.com
+
+</p>
+
+<p>
+
+Phone : +91 9876543210
+
+</p>
+
+</section>
+
+<!-- Footer -->
+
+<footer>
+
+<p>
+
+© 2026 Pixel Gallery | Designed by Nithiya
+
+</p>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
